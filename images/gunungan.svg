@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F9E498" />
+      <stop offset="30%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#AA771C" />
+      <stop offset="100%" stop-color="#85580F" />
+    </linearGradient>
+    <linearGradient id="softGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE8A3" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#B8860B" stop-opacity="0.6" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Gunungan Outer Contour -->
+  <g id="gunungan-frame" stroke="url(#goldGrad)" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main Kayon Silhouette -->
+    <path d="M 250,30 
+             C 270,70 305,120 340,180 
+             C 375,240 410,310 425,380 
+             C 440,450 435,520 405,580 
+             C 375,640 310,650 250,655 
+             C 190,650 125,640 95,580 
+             C 65,520 60,450 75,380 
+             C 90,310 125,240 160,180 
+             C 195,120 230,70 250,30 Z" 
+          fill="url(#goldGrad)" fill-opacity="0.04" stroke-width="3" />
+    
+    <!-- Secondary Inset Border -->
+    <path d="M 250,55 
+             C 268,90 300,135 330,192 
+             C 362,248 394,312 408,378 
+             C 421,442 416,505 389,560 
+             C 362,615 305,628 250,632 
+             C 195,628 138,615 111,560 
+             C 84,505 79,442 92,378 
+             C 106,312 138,248 170,192 
+             C 200,135 232,90 250,55 Z" 
+          stroke-dasharray="6,4" stroke-width="1.8" />
+
+    <!-- Crown / Top Puncak Mustika -->
+    <path d="M 250,15 L 254,32 L 250,38 L 246,32 Z" fill="url(#goldGrad)" />
+    <circle cx="250" cy="14" r="5" fill="url(#goldGrad)" filter="url(#glow)" />
+    <path d="M 235,45 Q 250,32 265,45 Q 250,42 235,45 Z" fill="url(#goldGrad)" />
+
+    <!-- Central Axis / Trunk (Pohon Hayat / Tree of Life) -->
+    <line x1="250" y1="45" x2="250" y2="630" stroke-width="2.5" />
+    
+    <!-- Sacred Portal / Gapura Bawah (The Gate to New Life) -->
+    <path d="M 215,630 L 215,530 Q 250,490 285,530 L 285,630" stroke-width="2" />
+    <path d="M 205,632 L 295,632" stroke-width="3" />
+    <path d="M 225,540 Q 250,515 275,540" stroke-width="1.5" />
+    <!-- Gate Doors -->
+    <line x1="250" y1="510" x2="250" y2="630" stroke-dasharray="4,3" />
+    <circle cx="240" cy="570" r="3" fill="url(#goldGrad)" />
+    <circle cx="260" cy="570" r="3" fill="url(#goldGrad)" />
+
+    <!-- Sacred Wings / Lar & Floral Swirls (Left & Right) -->
+    <!-- Tier 1 Branches (Top) -->
+    <path d="M 250,120 Q 280,105 305,125 Q 285,135 250,135" />
+    <path d="M 250,120 Q 220,105 195,125 Q 215,135 250,135" />
+    <circle cx="310" cy="125" r="3" fill="url(#goldGrad)" />
+    <circle cx="190" cy="125" r="3" fill="url(#goldGrad)" />
+
+    <!-- Tier 2 Branches -->
+    <path d="M 250,170 Q 300,150 335,185 Q 300,195 250,185" />
+    <path d="M 250,170 Q 200,150 165,185 Q 200,195 250,185" />
+    <circle cx="340" cy="188" r="3.5" fill="url(#goldGrad)" />
+    <circle cx="160" cy="188" r="3.5" fill="url(#goldGrad)" />
+
+    <!-- Tier 3 Branches (Broad) -->
+    <path d="M 250,230 Q 320,205 370,255 Q 320,265 250,250" />
+    <path d="M 250,230 Q 180,205 130,255 Q 180,265 250,250" />
+    
+    <!-- Tier 4 Main Wings (Lar) -->
+    <path d="M 250,300 C 330,270 380,310 405,370 C 365,370 320,330 250,335" />
+    <path d="M 250,300 C 170,270 120,310 95,370 C 135,370 180,330 250,335" />
+
+    <!-- Intricate Floral tendrils inside branches -->
+    <path d="M 250,370 C 310,360 360,400 385,460 C 350,455 310,410 250,415" />
+    <path d="M 250,370 C 190,360 140,400 115,460 C 150,455 190,410 250,415" />
+
+    <!-- Lower Harmony Swirls -->
+    <path d="M 250,445 C 300,440 345,475 365,530 C 330,520 295,485 250,485" />
+    <path d="M 250,445 C 200,440 155,475 135,530 C 170,520 205,485 250,485" />
+
+    <!-- Rosette / Mandala Center (Surya Majapahit motif at heart) -->
+    <circle cx="250" cy="300" r="22" stroke-width="2" fill="url(#goldGrad)" fill-opacity="0.15" />
+    <circle cx="250" cy="300" r="14" stroke-width="1.5" />
+    <circle cx="250" cy="300" r="5" fill="url(#goldGrad)" />
+    <!-- Rays -->
+    <line x1="250" y1="270" x2="250" y2="282" stroke-width="2" />
+    <line x1="250" y1="318" x2="250" y2="330" stroke-width="2" />
+    <line x1="220" y1="300" x2="232" y2="300" stroke-width="2" />
+    <line x1="268" y1="300" x2="280" y2="300" stroke-width="2" />
+    <line x1="229" y1="279" x2="238" y2="288" stroke-width="1.5" />
+    <line x1="262" y1="312" x2="271" y2="321" stroke-width="1.5" />
+    <line x1="271" y1="279" x2="262" y2="288" stroke-width="1.5" />
+    <line x1="238" y1="312" x2="229" y2="321" stroke-width="1.5" />
+
+    <!-- Base Pedestal Motif -->
+    <path d="M 180,650 Q 250,640 320,650 L 330,665 Q 250,655 170,665 Z" fill="url(#goldGrad)" fill-opacity="0.3" />
+    <path d="M 200,665 Q 250,658 300,665 L 310,675 Q 250,668 190,675 Z" fill="url(#goldGrad)" fill-opacity="0.6" />
+  </g>
+</svg>
